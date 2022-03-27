@@ -1,0 +1,163 @@
+/* @import url("https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Lobster&family=The+Nautigal&display=swap"); */
+/* @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lobster&family=The+Nautigal&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&family=Lobster&family=Mochiy+Pop+P+One&family=The+Nautigal&display=swap");
+* {
+  background-color: silver;
+  margin: 0px;
+  padding: 0;
+}
+a:anylink {
+  color: coral;
+}
+a:visited {
+  color: coral;
+}
+a:hover {
+  color: blue;
+}
+h1.container {
+  background-image: url("./web-development-services.jpg");
+  margin-top: 15px;
+
+  height: 500px;
+  background-repeat: no-repeat;
+  color: white;
+  width: 100%;
+
+  background-size: cover;
+  text-align: center;
+  word-spacing: 15px;
+
+  font-size: 40px;
+}
+nav a { text-decoration:none; }
+
+nav {
+  font-size: 30px;
+  word-spacing: 15px;
+
+  text-align: center;
+}
+pre.heading {
+  font-size: 70px;
+  background-color: lightcoral;
+  display: inline-block;
+  text-align: center;
+  border: 2px solid rgb(0, 0, 0);
+  padding: 10px;
+  border-radius: 10px;
+  width: 310px;
+  animation-name: bg;
+  animation-duration: 8s;
+  animation-delay: 4s;
+  animation-iteration-count: infinite;
+  height: 80px;
+}
+pre.omer {
+  display: inline;
+  font-family: "Inconsolata", monospace;
+
+  font-size: 30px;
+}
+.hamburger{
+  text-decoration: none;
+  color: black;
+}
+img.omer {
+  float: right;
+  height: 400px;
+  display: inline;
+}
+h1.omerf {
+  display: block;
+  font-size: 50px;
+  animation-name: bg;
+  animation-duration: 5s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+  display: inline;
+  border: 5px solid black;
+  border-radius: 10px;
+  padding: 10px;
+}
+a.ome {
+  border-radius: 10px;
+  background-color: rgb(14, 177, 241);
+  padding: 10px;
+  font-size: 30px;
+}
+p.para {
+  font-size: 30px;
+  font-family: "Lobster", cursive;
+}
+p.omerh {
+  font-size: 30px;
+}
+/* nav.t{
+  text-align: left;
+} */
+h1#omer4 {
+  background-color: darksalmon;
+  display: inline-block;
+  border: 5px solid black;
+  padding: 15px;
+  border-radius: 15px;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+a.i {
+  background-color: cyan;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 15px;
+}
+a.j {
+  background-color: cyan;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 15px;
+}
+a.k {
+  background-color: cyan;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 15px;
+}
+a.l {
+  background-color: cyan;
+  border: 5px solid black;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+@keyframes bg {
+  0% {
+    background-color: rgb(251, 6, 6);
+    color: black;
+  }
+  50% {
+    background-color: orangered;
+    color: yellow;
+  }
+  75% {
+    background-color: orange;
+    color: red;
+  }
+  100% {
+    background-color: rgb(9, 252, 252);
+    color: black;
+  }
+ 
+}
+ 
+  @media all and (max-width:700px)
+   {  nav { flex-direction:column; } 
+    nav a { margin:5px 0px;}
+    
+  
+  }
+  

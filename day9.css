@@ -1,0 +1,29 @@
+/* follow the order  or else not work*/
+a:link{
+    color:red;
+    
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color:black;
+    border: 5px solid lightgreen;
+}
+a:active{
+    color: limegreen;
+}
+input:required{
+    color: coral;
+
+}
+input:focus{
+    padding: 50px;
+}
+div:last-of-type{
+    color:red;
+    @media {
+        
+    }
+}
+
